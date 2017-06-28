@@ -155,5 +155,6 @@
   "loc.messages.TemplateFilePatternMatchingNoFile": "Could not find any file matching the template file pattern",
   "loc.messages.TemplateParameterFilePatternMatchingNoFile": "Could not find any file matching the template file pattern",
   "loc.messages.ParametersPatternMatchesADirectoryInsteadOfAFile": "Parameters file pattern matches a directory instead of a file.",
-  "loc.messages.CsmFilePatternMatchesADirectoryInsteadOfAFile": "Template file pattern matches a directory instead of a file: %s"
+  "loc.messages.CsmFilePatternMatchesADirectoryInsteadOfAFile": "Template file pattern matches a directory instead of a file: %s",
+  "loc.messages.ResourceNameCannotBeNull": "Resource name cannot be null."
 }
