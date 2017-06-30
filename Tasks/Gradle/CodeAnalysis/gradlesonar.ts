@@ -21,7 +21,7 @@ export function applyEnabledSonarQubeArguments(gradleRun: trm.ToolRunner): trm.T
     // Set the SonarQube Gralde plugin version in the script
     let initScriptPath: string = path.join(__dirname, 'sonar.gradle');
     let pluginVersion: string = sqCommon.getSonarQubeGradlePluginVersion();
-    let scriptContents: string= fs.readFileSync(initScriptPath, 'utf8');
+    let scriptContents: string = fs.readFileSync(initScriptPath, 'utf8');
     scriptContents = scriptContents.replace('SONARQUBE_GRADLE_PLUGIN_VERSION', pluginVersion);
     tl.writeFile(initScriptPath, scriptContents);
 
